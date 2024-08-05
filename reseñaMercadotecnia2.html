@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <link rel="stylesheet" href="onepage.css">
+    <title>Document</title>
+    <style>
+    html{
+    scroll-behavior: smooth;
+    }
+    #principal{
+    width: 40%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+   
+    }
+    .contenido{
+    margin:  0;
+    padding: 0;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius:15px ;
+    box-shadow: 30px 30px 30px black;
+    background: #ec4b59;
+    position:relative;
+    
+    }
+    h1{
+    font-family: Arial Black;
+    font-size: 200%;
+    margin: 0;
+    text-align: center;
+    
+    }
+    
+    img{
+        position:relative;  
+        width: 300px;
+        height: 300px;
+        position: relative;  
+        left:21%;
+    }
+    .cont{
+        font-family: 'Bookman Old Style';
+        font-size: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    #menu{
+    background-color: #9a2848;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 15%;
+    z-index:2;
+    border-radius: 40% ;
+    }
+    #menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+    
+    }
+    #menu a{
+    color: rgb(242, 247, 242);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Bookman Old Style';
+    position: relative;
+    right: 8%;
+    }
+    #menu a:hover{
+        color: rgb(247, 206, 25);
+    }
+    video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 250%;
+            object-fit:cover;
+            
+
+        }
+    
+    </style>
+</head>
+<body>
+     
+    <header>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Volver a la pagina principal</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <section>
+        <div id="principal">
+            <article>
+                <div class="contenido">
+                    <h1>Reseña Historica</h1>
+                    <hr>
+                    <img src="imagenes/Merca/logoMerca.png" alt="">
+                    <h1 class="cont">La carrera de Mercadotecnia fue fundada con la Resolución Administrativa Nº 06/88 del 15 de enero de 1988, a iniciativa del profesor José Villalta Molina, quien tuvo la visión para identificar las necesidades crecientes de diferentes organizaciones y empresas, relacionadas a poder contar con profesionales en esta disciplina. Las autoridades en ese año que apoyaron el proyecto de creación de una nueva Carrera dentro del ISEC “La Paz” eran: el Lic. Carlos Sotomayor (Rector) y el Lic. Alcibiades Conradi (Director Académico).
+                        Asimismo, es importante recordar, que el año 2009 los docentes de la carrera de Mercadotecnia estuvieron alarmados, cuando llega una circular a las autoridades de nuestra Institución proveniente del Ministerio de Educación, en la cual se indicaba que las diferentes carreras de nuestro Instituto deberían presentar su diseño curricular en el Ministerio de Educación para una revisión, sin embargo, en esta circular, no figuraba la carrera de Mercadotecnia. Obviamente esta situación llamó la atención de gran manera, así es que la Lic. Soraya Sejas (Jefa de Carrera de ese entonces), en representación de la carrera de Mercadotecnia se entrevistó con autoridades del Ministerio de Educación, quienes le indicaron que no había asistido ningún representante de nuestro Instituto a las reuniones de Institutos Superiores realizadas en los departamentos de Sucre y Potosí que convocó el Ministerio de Educación, en la cual se revisaron los diseños curriculares de las diferentes carreras de los Institutos Superiores Técnicos Tecnológicos del país. Además, sostuvieron que como existen pocos Institutos Superiores que ofrecen la carrera de Mercadotecnia en el país y que tampoco habían asistido, entonces en el Ministerio de Educación se estaba analizando la posibilidad de convertir nuestra carrera en Administración de Empresas.
+                        
+                        </h1>
+                </div>
+            </article>
+        </div>
+    </section>
+    <video muted autoplay loop>
+        <source src="./video/merca.mp4" type="video/mp4">
+
+    </video>
+      
+</body>
+</html>

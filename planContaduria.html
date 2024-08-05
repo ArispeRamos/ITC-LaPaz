@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+    <style>
+        *{
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            float: none;
+            margin: auto;
+            
+
+        }
+        table{
+            width: 600PX;
+            background-color: blanchedalmond;
+            
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            float: none;
+        }
+        th{
+            background-color: #c47309;
+            color: white;
+            height: 75px;
+            float: none;
+        }
+        td{
+            background-color: #43a8b6;
+            color: white;
+            text-align: center;
+           
+            height: 70px;
+            float: none;
+
+        }
+    #menu{
+    background-color:#885508;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 15%;
+    z-index:2;
+    border-radius: 30% ;
+    }
+    #menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+    
+    }
+    #menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Bookman Old Style';
+    position: relative;
+    right: 8%;
+    text-align: center;
+    }
+    #menu a:hover{
+        color: rgb(251, 255, 0);
+    }
+    .princi{
+        width: 100%;
+        height: 100%;
+        
+        position: relative;
+        z-index: 2;
+    }
+    video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 175%;
+            object-fit:cover;
+            
+            
+            
+
+        }
+        h2{
+            color: white;
+            
+        }
+        img{
+        position:relative;  
+        width: 200px;
+        height: 200px;
+        position: relative;  
+        }
+
+    </style>
+</head>
+<body>
+    <div class="princi">
+        <header>
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Volver a la pagina principal</a></li>
+                    </ul>
+                </nav>
+    
+            </div>
+        </header>
+        <div><img src="imagenes/Conta/logoConta.png" alt="">
+            <div>
+    <h2>PLAN DE ESTUDIOS</h2>
+    <h2>Duración : 3 años</h2>
+    <h2>Turnos : Mañana y Noche</h2>
+    <h2>Título : Técnico Superior en Contador General</h2>
+    <h2>                                             </h2></div>
+    <table class="tab">
+        <thead>
+            <tr>
+                <th>PRIMER AÑO</th><th>SEGUNDO AÑO</th><th>TERCER AÑO</th>
+            </tr>
+        </thead>   
+        <tbody>
+            <tr>
+               <td>-Contabilidad I</td><td>-Contabilidad II</td><td>-Emprendimiento Productivo</td>
+           </tr>
+           <tr>
+               <td>-Matematicas Financiera</td><td>-Contabilidad de Costos I</td><td>-Contabilidad Agropecuaria</td>
+           </tr>
+           <tr>
+               <td>-Informatica Contable</td><td>-Contabilidad de Sociedades</td><td>-Contabilidad de Costos II</td>
+           </tr>
+           <tr>
+               <td>-Administracion General</td><td>-Contabilidad de Seguros</td><td>-Contabilidad Gubernamental</td>
+           </tr>
+           <tr>
+               <td>-Legislacion Laboral y Seguridad Social Aplicada</td><td>-Contabilidad Bancaria y Cooperativa</td><td>-Contabilidad Extractiva</td>
+           </tr>
+           <tr>
+               <td>-Economia General Aplicada</td><td>-Investigacion Aplicada y Emprendimiento</td><td>-Contabilidad de Servicios</td>
+           </tr>
+           <tr>
+               <td>-Documentos Comerciales y Mercantiles</td><td>-Sistema Tributario</td><td>-Gavinete Contable Informatica</td>
+           </tr>
+           <tr>
+               <td>-Estadistica Aplicada</td><td></td><td>-Analisis e Interpretación de Estados Financieros</td>
+           </tr>
+           <tr>
+               <td></td><td></td><td>-Taller de Modalidad de Graduación</td>
+           </tr>
+        </tbody>
+        <tfoot>
+    
+        </tfoot>
+       </table>
+    
+            
+        </div>
+    </div>
+    <video muted autoplay loop>
+        <source src="video/conta.mp4" type="video/mp4">
+
+    </video>
+    
+</body>
+</html>

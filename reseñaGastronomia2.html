@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <link rel="stylesheet" href="onepage.css">
+    <title>Document</title>
+    <style>
+    html{
+    scroll-behavior: smooth;
+    }
+    #principal{
+    width: 40%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+   
+    }
+    .contenido{
+    margin:  0;
+    padding: 0;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius:15px ;
+    box-shadow: 30px 30px 30px black;
+    background: #8393a3;
+    position:relative;
+    
+    }
+    h1{
+    font-family: Arial Black;
+    font-size: 200%;
+    margin: 0;
+    text-align: center;
+    
+    }
+    
+    img{
+        position:relative;  
+        width: 300px;
+        height: 300px;
+        position: relative;  
+        left: 19%;
+    }
+    .cont{
+        font-family: 'Bookman Old Style';
+        font-size: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    #menu{
+    background-color: #273142;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 15%;
+    z-index:2;
+    border-radius: 40% ;
+    }
+    #menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+    
+    }
+    #menu a{
+    color: rgb(242, 247, 242);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Bookman Old Style';
+    position: relative;
+    right: 8%;
+    }
+    #menu a:hover{
+        color: rgb(247, 206, 25);
+    }
+    video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 200%;
+            object-fit:cover;
+            
+
+        }
+    
+    </style>
+</head>
+<body>
+     
+    <header>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Volver a la pagina principal</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <section>
+        <div id="principal">
+            <article>
+                <div class="contenido">
+                    <h1>Reseña Historica</h1>
+                    <hr>
+                    <img src="imagenes/Gastro/logoGastro.png" alt="">
+                    <h1 class="cont">La Carrera de Gastronomía se creó el 10 de septiembre del 2005 con la R.M. 044/06 a Nivel Técnico Medio, con el Rector Lic. Rolando Narváez Villar y Director Académico el Lic. José Enrique Gumiel Gutiérrez y con el plantel docente:
+                        Chef Hermogenes Sarmiento
+                        Chef Nelson Barbosa
+                        Posteriormente paso a ser Técnico Superior con la R.M. Nº 066/2012 y con la R.M. 2307/17 regulada con la R.M. 086/2018
+                        La carrera de gastronomía fue creada partir de una iniciativa de la carrera de turismo que contaba con tres niveles del área del saber de alimentos y bebidas, así el año 2006, y a cargo del contador general rolando Narváez, rector del entonces I.S.E.C - LA PAZ. Se crea la carrera de gastronomía, con dos años de estudio
+                        A nivel técnico medio, posteriormente el año 2014 se inicia los talleres de modificación de mallas curriculares con el ministerio de educación para elevar el nivel de técnico superior, constituyendo un impacto en su aceptación en las juventudes estudiosas.
+                        En el año 2000, cuando el rectorado era difundido por el contador Rolando Narváez, se fundó la carrera de GASTRONOMIA, como aprendices de la carrera de Turismo y Hotelería, que entonces la institución ISEC – LA PAZ funcionaba en la escuela Genaro gamarra en la calle Catacora y desde entonces la carrera año tras año va con conocimientos con títulos en provisión nacional técnicos en nivel superior.</h1>
+                </div>
+            </article>
+        </div>
+    </section>
+    <video muted autoplay loop>
+        <source src="./video/gastro.mp4" type="video/mp4">
+
+    </video>
+      
+</body>
+</html>

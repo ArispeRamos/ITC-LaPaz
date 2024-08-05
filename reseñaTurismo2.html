@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <link rel="stylesheet" href="onepage.css">
+    <title>Document</title>
+    <style>
+    html{
+    scroll-behavior: smooth;
+    }
+    #principal{
+    width: 40%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+   
+    }
+    .contenido{
+    margin:  0;
+    padding: 0;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius:15px ;
+    box-shadow: 30px 30px 30px black;
+    background: #736681;
+    position:relative;
+    
+    }
+    h1{
+    font-family: Arial Black;
+    font-size: 200%;
+    margin: 0;
+    text-align: center;
+    
+    }
+    
+    img{
+        position:relative;  
+        width: 300px;
+        height: 300px;
+        position: relative;  
+        left:21%;
+    }
+    .cont{
+        font-family: 'Bookman Old Style';
+        font-size: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    #menu{
+    background-color: #141827;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 15%;
+    z-index:2;
+    border-radius: 40% ;
+    }
+    #menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+    
+    }
+    #menu a{
+    color: rgb(242, 247, 242);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Bookman Old Style';
+    position: relative;
+    right: 8%;
+    }
+    #menu a:hover{
+        color: rgb(247, 206, 25);
+    }
+    video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 240%;
+            object-fit:cover;
+            
+
+        }
+    
+    </style>
+</head>
+<body>
+     
+    <header>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Volver a la pagina principal</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <section>
+        <div id="principal">
+            <article>
+                <div class="contenido">
+                    <h1>Reseña Historica</h1>
+                    <hr>
+                    <img src="imagenes/Turismo/logoTurismo.png" alt="">
+                    <h1 class="cont">A iniciativa del entonces Rector del I.S.E.C. La Paz Sr. Rolando Narváez y el Director académico Lic. José Gumiel Gutiérrez se amplió la oferta a otras carreras como las de Turismo y hotelería, Analista de sistemas, Gastronomía, Guía de Turismo. La carrera de turismo y Hotelería cuenta con los siguientes docentes:
+                        Archondo Vidaurre Roberto, Arias Pérez Dórys, Castro Huanca Consuelo, Amusquivar Fernández Luis, Choque Nicolás Agapito, Cuéllar Zapata Edgar, Gutiérrez Farfán Edgar, López Fernández José Luis, Luna Siñani Renato, Pérez Rivera Henry, Sejas Bacarreza Nydia Soraya, Vásquez Torrico Víctor, Villegas Vargas Grace.
+                        Resolución Ministerial Nº 444/06 Las conclusiones del Informe Técnico de 27 de septiembre de 2006 VES/DSFT/Nº653/06 para la acreditación profesional al Director General de Formación Técnica señala: el Proyecto Educativo cumple con los requisitos establecidos en la normativa vigente, por tanto la solicitud efectuada por el Lic. José Gumiel Rector del ISEC – La Paz, en sentido de renovar y ampliar la oferta Curricular, es considerada procedente. Las nuevas carreras a ser impartidas por la Institución son: Turismo y Hotelería, Idiomas y Analista de Sistemas a nivel Técnico Superior; Gastronomía y Guía Turístico a Nivel Técnico Medio. El Ministro de Educación y Culturas en uso de las atribuciones conferidas por Ley Resuelve:
+                        Artículo 1. (AUTORIZACIÓN LA RENOVACIÓN Y AMPLIACIÓN DE OFERTA CURRICULAR).- Autorizar la renovación y la ampliación de la oferta curricular del Instituto Superior de Educación Comercial La Paz (I.S.E.C. La Paz) en el Departamento de La Paz, con las Carreras:
+                        Nivel Técnico Superior
+                        Turismo y Hotelería</h1>
+                </div>
+            </article>
+        </div>
+    </section>
+    <video muted autoplay loop>
+        <source src="./video/turismo.mp4" type="video/mp4">
+
+    </video>
+      
+</body>
+</html>

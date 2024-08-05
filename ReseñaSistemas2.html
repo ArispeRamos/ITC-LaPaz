@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <link rel="stylesheet" href="onepage.css">
+    <title>Document</title>
+    <style>
+    html{
+    scroll-behavior: smooth;
+    }
+    #principal{
+    width: 40%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+   
+    }
+    .contenido{
+    margin:  0;
+    padding: 0;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius:15px ;
+    box-shadow: 30px 30px 30px black;
+    background: #195e63;
+    position:relative;
+    
+    }
+    h1{
+    font-family: Arial Black;
+    font-size: 200%;
+    margin: 0;
+    text-align: center;
+    
+    }
+    
+    img{
+        position:relative;  
+        width: 300px;
+        height: 300px;
+        position: relative;  
+        left:21%;
+    }
+    .cont{
+        font-family: 'Bookman Old Style';
+        font-size: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    #menu{
+    background-color:#063940;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 15%;
+    z-index:2;
+    border-radius: 40% ;
+    }
+    #menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+    
+    }
+    #menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Bookman Old Style';
+    position: relative;
+    right: 8%;
+    text-align: center;
+    }
+    #menu a:hover{
+        color: rgb(255, 230, 4);
+    }
+    video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 165%;
+            object-fit:cover;
+            
+
+        }
+    
+    </style>
+</head>
+<body>
+     
+    <header>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Volver a la pagina principal</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <section>
+        <div id="principal">
+            <article>
+                <div class="contenido">
+                    <h1>Reseña Historica</h1>
+                    <hr>
+                    <img src="logoSistemas1.png" alt="">
+                    <h2></h2>
+                    <h1 class="cont">La carrera de Sistemas Informáticos se creó el 17 de septiembre del año 1993 con la R.M. Nº 23/83, como Rector el Lic. Carlos Soto Mayor y como Director Académico el Lic. Alcibiades Conradi Vallejos, la carrera se habría originado con un pensum muy similar al de CENACO, para llevar adelante el avance curricular académico.
+                        La conformación del plantel docente fue alrededor de 5 personas con distintas especialidades y ellos son:
+                        Lic. Javier Isidro Valverde Rosell
+                        Lic. Ramiro Gutiérrez Pérez
+                        Ing. Renato Luna Siñani
+                        Lic. José Enrique Gumiel Gutiérrez
+                        Lic. Richar Limachi
+                        Con la R.M. Nº 444/06 se cambió de nombre Analista de Sistemas a Nivel Técnico superior, con la R.M. 066/12 se cambió a Sistemas Informáticos a Nivel Técnico Superior.</h1>
+                </div>
+            </article>
+        </div>
+    </section>
+    <video muted autoplay loop>
+        <source src="video/WhatsApp Video 2024-07-27 at 10.01.15 AM.mp4" type="video/mp4">
+
+    </video>
+      
+</body>
+</html>

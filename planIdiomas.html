@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+    <style>
+        *{
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            float: none;
+            margin: auto;
+            
+
+        }
+        table{
+            width: 600PX;
+            background-color: blanchedalmond;
+            
+            text-align: center;
+            
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            float: none;
+        }
+        th{
+            background-color: #4b7c77;
+            color: white;
+            height: 75px;
+            float: none;
+        }
+        td{
+            background-color: #93ccc6;
+            color: white;
+            text-align: center;
+           
+            height: 70px;
+            float: none;
+
+        }
+    #menu{
+    background-color:#465351;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 15%;
+    z-index:2;
+    border-radius: 40% ;
+    }
+    #menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+    
+    }
+    #menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 90%;
+    font-family: 'Bookman Old Style';
+    position: relative;
+    right: 8%;
+    text-align: center;
+    }
+    #menu a:hover{
+        color: rgb(255, 208, 0);
+    }
+    .princi{
+        width: 100%;
+        height: 100%;
+        
+        position: relative;
+        z-index: 2;
+    }
+    video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 140%;
+            object-fit:cover;
+            
+            
+            
+
+        }
+        h2{
+            color: white;
+        }
+        img{
+        position:relative;  
+        width: 200px;
+        height: 200px;
+        position: relative;  
+        }
+
+    </style>
+</head>
+<body>
+    <div class="princi">
+        <header>
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Volver a la pagina principal</a></li>
+                    </ul>
+                </nav>
+    
+            </div>
+        </header>
+        <div><img src="imagenes/Ingles/logoIngles.png" alt="">
+            <div>
+    <h2>PLAN DE ESTUDIOS</h2>
+    <h2>Duración : 6 Semestres</h2>
+    <h2>Turnos : Mañana y Noche</h2>
+    <h2>Título : Técnico Superior en Idioma Ingles</h2>
+    <h2>                                             </h2></div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>PRIMER SEMESTRE</th><th>SEGUNDO SEMESTRE</th><th>TERCER SEMESTRE</th><th>CUARTO SEMESTRE</th><th>QUINTO SEMESTRE</th><th>SEXTO SEMESTRE</th>
+            </tr>
+        </thead>   
+        <tbody>
+            <tr>
+               <td>- Inglés Básico I</td><td>- Inglés Básico IV</td><td>- Inglés Intermedio I</td><td>- Inglés Intermedio IV</td><td>- Inglés Avanzado I</td><td>- Inglés Avanzado IV</td>
+           </tr>
+           <tr>
+               <td>- Inglés Básico II</td><td>- Inglés Básico V</td><td>- Inglés Intermedio II</td><td>- Inglés Intermedio V</td><td>- Inglés Avanzado II</td><td>- Inglés Avanzado V</td>
+           </tr>
+           <tr>
+               <td>- Inglés Básico III</td><td>- Inglés Básico VI</td><td>- Inglés Intermedio III</td><td>- Inglés Intermedio VI</td><td>- Inglés Avanzado III</td><td>- Inglés Avanzado VI</td>
+           </tr>
+           <tr>
+               <td></td><td></td><td>- Emprendimiento Productivo I</td><td>- Taller de Modalidad de Graduación I</td><td>-Emprendimiento Productivo II</td><td>- Taller de Modalidad de Graduación II</td>
+           </tr>
+           
+        </tbody>
+        <tfoot>
+    
+        </tfoot>
+       </table>
+        </div>
+    </div>
+    <video muted autoplay loop>
+        <source src="video/ingles.mp4" type="video/mp4">
+
+    </video>
+    
+</body>
+</html>

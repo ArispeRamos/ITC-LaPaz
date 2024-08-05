@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <link rel="stylesheet" href="onepage.css">
+    <title>Document</title>
+    <style>
+    html{
+    scroll-behavior: smooth;
+    }
+    #principal{
+    width: 40%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+   
+    }
+    .contenido{
+    margin:  0;
+    padding: 0;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius:15px ;
+    box-shadow: 30px 30px 30px black;
+    background: #6cbdb5;
+    position:relative;
+    
+    }
+    h1{
+    font-family: Arial Black;
+    font-size: 200%;
+    margin: 0;
+    text-align: center;
+    
+    }
+    
+    img{
+        position:relative;  
+        width: 300px;
+        height: 300px;
+        position: relative;  
+        left:21%;
+    }
+    .cont{
+        font-family: 'Bookman Old Style';
+        font-size: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    #menu{
+    background-color: #4f615d;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 15%;
+    z-index:2;
+    border-radius: 40% ;
+    }
+    #menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+    
+    }
+    #menu a{
+    color: rgb(242, 247, 242);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Bookman Old Style';
+    position: relative;
+    right: 8%;
+    }
+    #menu a:hover{
+        color: rgb(247, 206, 25);
+    }
+    video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 200%;
+            object-fit:cover;
+            
+
+        }
+    
+    </style>
+</head>
+<body>
+     
+    <header>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Volver a la pagina principal</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <section>
+        <div id="principal">
+            <article>
+                <div class="contenido">
+                    <h1>Reseña Historica</h1>
+                    <hr>
+                    <img src="imagenes/Ingles/logoIngles.png" alt="">
+                    <h1 class="cont">La carrera de Idioma Ingles inicia con su primer curso en la gestión 2005, el 7 de diciembre del 2006 se regulariza la Carrera con la R.M. Nº 444/06, en la que resuelve la autorización, renovación y ampliación de la oferta curricular a Nivel Técnico Superior de Idioma Ingles, en la gestión 2011 bajo la R.M. Nº 196/2011 se regulariza las actividades académicas de la carrera. La carrera estaba a cargo de los siguientes docentes:
+                        Lic. Jhonny Centellas Tarquino
+                        Lic. Consuelo Jhaqueline Castro Huanca
+                        El 12 de noviembre del 2013 con la R.M. Nº 843/2013 se da inicio a la Carrera de Lingüística con mención: Ingles a Nivel Técnico Superior bajo el Régimen de Estudios semestral con una duración de 6 semestres y carga horaria de 3600 horas. Se cierra la carrera con el último curso el I-2021.
+                        El 15 de junio de 2001 con la R.M. Nº 0328/2021 se da inicio a la Carrera de Idioma Ingles a Nivel Técnico Superior bajo el Régimen Semestral con una duración de 6 semestres y carga horaria de 3600 horas.
+                        En diciembre 2019 se realiza el nombramiento de coordinación de carrera a la Lic. Alida Quisbert Rojas.
+                        Finales del mes de diciembre se inicia el trámite de Ampliación de Certificación de la Carrera de Inglés, como requisito indispensable para la entrega del proyecto.</h1>
+                </div>
+            </article>
+        </div>
+    </section>
+    <video muted autoplay loop>
+        <source src="./video/ingles.mp4" type="video/mp4">
+
+    </video>
+      
+</body>
+</html>
